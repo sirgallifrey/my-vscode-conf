@@ -1,0 +1,33 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontSize": 16,
+    "window.zoomLevel": 0.6,
+    "editor.renderIndentGuides": true,
+    "editor.fontFamily": "'Roboto mono for powerline', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "explorer.autoReveal": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/vendor": false,
+        "**/cache": true,
+        "**/log": true,
+        "**/web/js/plugins": true,
+        "**/dist": true,
+        "**/build": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/node_modules/**": true,
+        "**/bower_components": true,
+        "**/vendor": true,
+        "**/cache": true,
+        "**/log": true
+    }
+}
